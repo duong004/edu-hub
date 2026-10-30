@@ -157,8 +157,8 @@ const LessonShow = () => {
                                                                         <><FaFileAlt /> {material.title}</>
                                                                     </div>
                                                                     <div className='material-item-content-item'>
-                                                                        <a href="#" onClick={() => handleMaterialRawClick(material, lesson, 'download')}>Tải về</a>
-                                                                        <a href="#" onClick={() => handleMaterialRawClick(material, lesson, 'view')}>Xem trước</a>
+                                                                        <button onClick={() => handleMaterialRawClick(material, lesson, 'download')}>Tải về</button>
+                                                                        <button onClick={() => handleMaterialRawClick(material, lesson, 'view')}>Xem trước</button>
                                                                     </div>
                                                                 </div>
                                                             )}

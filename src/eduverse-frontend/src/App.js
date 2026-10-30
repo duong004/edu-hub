@@ -56,7 +56,7 @@ const App = () => {
         <Route path="/404" element={<NotFoundPage />} />
         <Route path="/offline" element={<MaintenancePage />} />
         <Route path="/my-learning" component={MyLearning} />
-        // context when logged in
+        {/* context when logged in*/}
         <Route path="/my-profile" element={<ProfilePage />} />
         <Route path="/search" element={<SearchResults />} /> 
         <Route path="/coursess/:id" element={<CourseDetail />} />

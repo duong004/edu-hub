@@ -36,6 +36,7 @@ const MaterialShow = () => {
                     height="315"
                     // src="https://www.youtube.com/embed/IKEt2SSmyUE"
                     src={material[0].content_url.startsWith("https://") ? material[0].content_url : "https://www.youtube.com/embed/IKEt2SSmyUE"}
+                    title={material[0].title}
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
